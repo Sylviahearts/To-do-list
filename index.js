@@ -11,7 +11,7 @@ function addBtn() {
       <li id="${id}" > 
         <input onclick="delCheck()" id ="check" class ="me-2" type="checkbox">
         <span class ="me-2 inval ">${inpValue1}</span>
-        <img src="delete.png" class="img-fl imm" onclick="delBtn(${id})" alt="">
+        <img src="delete.png" class="imm" onclick="delBtn(${id})" alt="">
       
       </li>
     `);
