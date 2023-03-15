@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-info">
+    <div class="row">
+        <div class="col-md-6 mx-auto mt-5 bg-ifo text-center">
+            <h1 class="mt-2 ">My T0-Do List</h1>
+            <img src="todo-removebg-preview.png" alt="">
+            <h3>Add your first to-do</h3>
+            <b> <i>What would you like to get done today?</i></b>
+            <input type="text" class="form-control mt-4" id="inp" placeholder="e.g Hair appointment by 2pm">
+            <button onclick="addBtn()" class="btn btn-outline-dark btn-warning mt-2 px-4">Add</button>
+        </div>
+
+        <div class="crd crd-body text-center mt-5 td-list">
+            <ul id="unlist">
+
+            </ul>
+        </div>
+
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="index.js"></script>
+</body>
+
+</html>
